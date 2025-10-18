@@ -15,7 +15,23 @@ function tavis($tavebi) {
             </nav>
         </div>';
     }
-}
+};
+
+function firstcontainer($firsts){
+    foreach($firsts as $first) {
+        echo '
+        <div class="pirveli container"> 
+            <h4>'.$first['text1'].' <span>'.$first['text2'].'</span></h4>
+            <div class="nawili2">
+                <img src="'.$first['logo'].'" alt="">
+                <div class="mokleinfo">
+                    <p>'.$first['text3'].'</p>
+                    <h2>'.$first['text4'].'</h2>
+                </div>
+            </div>
+        </div>';
+    }
+};
 
 
 ?>

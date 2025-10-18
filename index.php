@@ -16,9 +16,14 @@ include ("data.php");
     
 <header>
     <?php
-        tavis($headerinfo)
+        tavis($headerinfo);
     ?>
 </header>
+<?php
+ firstcontainer($firstconta);
+?>
+
+
 
 <script src="assets/scripts/main.js"></script>
 </body>
