@@ -33,5 +33,15 @@ function firstcontainer($firsts){
     }
 };
 
+function secondcontainer($seconds) {
+    foreach ($seconds as $second) {
+        echo '
+        <div class="shortinfome container">
+            <h1>'.$second['text1'].'</h1>
+            <h2>'.$second['text2'].' <span><a href="https://skillwill.edu.ge/">'.$second['text3'].'</a></span></h2>
+        </div>';
+    }
+};
+
 
 ?>
