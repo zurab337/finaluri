@@ -7,6 +7,7 @@
 
 body {
       font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #7127BA;
     }
 
 .container {
@@ -99,3 +100,78 @@ nav a img:hover,
     }
 }
 /* header media end */
+
+/* first container of landing page start */
+
+.pirveli {
+    padding-top: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A0B2E;
+}
+
+.pirveli h4 {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.pirveli h4 span {
+    margin-left: 5px;
+    color: #7127BA;
+}
+
+.nawili2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.mokleinfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+}
+
+.mokleinfo p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.mokleinfo h2 {
+    width: 500px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+/* first container of landing page end */
+
+/* media of first container of landing page start */
+
+@media (max-width: 700px){
+    .nawili2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px){
+    .mokleinfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mokleinfo h2 {
+        font-size: 25px;
+        width: 100%;
+    }
+}
+
+/* media of first container of landing page end */
