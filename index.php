@@ -23,6 +23,11 @@ include ("data.php");
  firstcontainer($firstconta);
  secondcontainer($secondconta);
 ?>
+<footer>
+<?php
+fexi($footerinfo)
+?>
+</footer>
 
 
 
