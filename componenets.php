@@ -1,5 +1,7 @@
 <?php
 
+// header start
+
 function tavis($tavebi) {
     foreach($tavebi as $tavi){
         echo '
@@ -17,6 +19,10 @@ function tavis($tavebi) {
     }
 };
 
+// header end
+
+// first container of landing page start
+
 function firstcontainer($firsts){
     foreach($firsts as $first) {
         echo '
@@ -33,15 +39,39 @@ function firstcontainer($firsts){
     }
 };
 
+// first container of landing page end
+
+// second container of landing page start
+
 function secondcontainer($seconds) {
     foreach ($seconds as $second) {
         echo '
         <div class="shortinfome container">
             <h1>'.$second['text1'].'</h1>
-            <h2>'.$second['text2'].' <span><a href="https://skillwill.edu.ge/">'.$second['text3'].'</a></span></h2>
+            <h2>'.$second['text2'].' <span><a href="'.$second['link'].'">'.$second['text3'].'</a></span></h2>
         </div>';
     }
 };
+
+// second container of landing page end
+
+// footer start
+function fexi($fexs) {
+    foreach ($fexs as $fex) {
+       echo '
+       <div class="fexebi container">
+            <h1>'.$fex['text1'].'</h1>
+            <div class="imgs">
+            <a href ="'.$fex['link1'].'"><img src="'.$fex['img1'].'" alt=""> </a>
+            <a href ="'.$fex['link2'].'"><img src="'.$fex['img2'].'" alt=""> </a>
+            <a href ="'.$fex['link3'].'"><img src="'.$fex['img3'].'" alt=""> </a>
+            </div>
+            <h2>'.$fex['text2'].' <span><a href="mailto:'.$fex['text3'].'?subject=Hello&body=I%20want%20to%20contact%20you">'.$fex['text3'].'</a></span></h2>
+       </div>';
+    }
+};
+
+// footer end
 
 
 ?>

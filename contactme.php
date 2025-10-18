@@ -20,6 +20,12 @@ include ("data.php");
     ?>
 </header>
 
+<footer>
+<?php
+fexi($footerinfo)
+?>
+</footer>
+
 <script src="assets/scripts/main.js"></script>
 </body>
 </html>

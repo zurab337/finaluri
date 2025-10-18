@@ -25,7 +25,7 @@ nav {
 }
 
 .tavtavi {
-    background-color: #1A0B2E;
+    background-color: black;
     padding: 37px 0 37px 0;
 }
 
@@ -184,6 +184,7 @@ nav a img:hover,
     align-items: center;
     padding-top: 100px;
     background-color: #1A0B2E;
+    padding-bottom: 20px;
 }
 
 .shortinfome h1 {
@@ -200,3 +201,45 @@ nav a img:hover,
 }
 
 /* second container of landing page end */
+
+/* footer start */
+
+.fexebi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    padding: 50px;
+}
+
+.fexebi h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.imgs img {
+    width: 50px;
+    height: 50px;
+}
+
+.fexebi h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.fexebi a {
+    font-size: 25px;
+    font-weight: 700;
+    color: #7127BA;
+}
+
+/* footer end */
