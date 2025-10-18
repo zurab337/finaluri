@@ -175,3 +175,28 @@ nav a img:hover,
 }
 
 /* media of first container of landing page end */
+
+/* second container of landing page start */
+.shortinfome {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #1A0B2E;
+}
+
+.shortinfome h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.shortinfome a {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    color: #7127BA;
+}
+
+/* second container of landing page end */

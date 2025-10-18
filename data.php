@@ -13,7 +13,7 @@ $headerinfo = [
 
 // Header end
 
-// first container start
+// first container of landing page start
 
 $firstconta = [
     [
@@ -25,7 +25,19 @@ $firstconta = [
     ]
 ];
 
-// first container end
+// first container of landing page end
+
+// second container of landing page start
+
+$secondconta = [
+    [
+        'text1' => 'I\'m Back-End Developer',
+        'text2' => 'Currently, I\'m Studying In',
+        'text3' => 'SkillWill'
+    ]
+    ];
+
+// second container of landing page end
 
 
 ?>
