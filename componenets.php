@@ -95,4 +95,22 @@ function about1($aboutmes) {
 
 
 // aboutme 1 section end
+
+// aboutme 2 section start
+
+function about2($aboutmes2) {
+    foreach ($aboutmes2 as $aboutme2){
+        echo '
+        <div class="aboutmes22">
+            <div class="amarcxenatext">
+                <h1>'.$aboutme2['text1'].' </h1>
+                <h2>'.$aboutme2['text2'].' </h2>
+            </div>
+            <img src="'.$aboutme2['img1'].'" alt="">
+        </div>';
+    }
+}
+
+
+// aboutme 2 section end
 ?>
