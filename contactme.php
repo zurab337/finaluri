@@ -20,6 +20,11 @@ include ("data.php");
     ?>
 </header>
 
+<?php
+showContactForm($contactmeinfo)
+?>
+
+
 <footer>
 <?php
 fexi($footerinfo)

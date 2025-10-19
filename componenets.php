@@ -109,8 +109,51 @@ function about2($aboutmes2) {
             <img src="'.$aboutme2['img1'].'" alt="">
         </div>';
     }
-}
+};
 
 
 // aboutme 2 section end
+
+// contact me start
+
+function showContactForm($contmes) {
+    foreach ($contmes as $contme) {
+        echo '
+        <form action="" method="POST" class="container">
+            <label for="name">'.$contme['text1'].'</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">'.$contme['text2'].'</label>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+
+            <label for="info">'.$contme['text3'].'</label>
+            <textarea id="info" name="info" rows="5" required></textarea>
+
+            <button type="submit">'.$contme['text4'].'</button>
+        </form>';
+    }
+};
+
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = trim($_POST['name']);
+    $email = trim($_POST['email']);
+    $info = trim($_POST['info']);
+    echo "<div class='submission-feedback-wrapper'>"; 
+    if (empty($name) || empty($email) || empty($info)) {
+        echo "<p class='feedback-message error'>All fields are required!</p>";
+    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo "<p class='feedback-message error'>Invalid email format!</p>";
+    } else {
+        $data = "Name: $name\nEmail: $email\nInfo: $info\n\n";
+        file_put_contents('submissions.txt', $data, FILE_APPEND);
+        echo "<div class='feedback-container success'>";
+        echo "<p class='feedback-message'>Thank you! Your information has been submitted.</p>";
+        echo "<a href='index.php' class='home-button'>Go back to home</a>"; 
+        echo "</div>";
+    }
+    echo "</div>"; 
+}
+
+// contact me end
 ?>
