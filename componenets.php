@@ -73,5 +73,26 @@ function fexi($fexs) {
 
 // footer end
 
+// aboutme 1 section start
 
+
+function about1($aboutmes) {
+    foreach ($aboutmes as $aboutme){
+        echo'
+        <div class="aboutmes1">
+            <h1>'.($aboutme['text1'] ?? '').'</h1>
+            <div class="orkarta">
+                <img src="'.$aboutme['img1'].'" alt="">
+                <div class="anawili2">
+                    <h2>'.$aboutme['text2'].'</h2>
+                    <h3>'.$aboutme['text3'].' </h3>
+                    <a href ="#">'.$aboutme['text4'].'</a>
+                </div>
+            </div>
+        </div>';
+    }
+};
+
+
+// aboutme 1 section end
 ?>
