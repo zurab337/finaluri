@@ -56,5 +56,26 @@ $footerinfo = [
 ];
 // footer end
 
+// about me container 1 start
+
+$about1info = [
+    [
+        'text1' => 'Work Experience',
+        'text2' => 'Wordrpess',
+        'img1' => './assets/foto1.svg',
+        'text3' => 'Experienced in building and customizing WordPress websites, optimizing performance, and ensuring clean, responsive, and secure design.',
+        'text4' => 'LEARN MORE',
+    ],
+    [
+        'text1' => 'My main projects on:',
+        'img1' => './assets/foto2.svg',
+        'text2' => 'Html/css/php',
+        'text3' => 'Skilled in HTML, CSS, and PHP, building responsive, functional websites with clean structure and optimized performance.',
+        'text4' => 'LEARN MORE',
+    ]
+];
+
+// about me container 1 end
+
 
 ?>

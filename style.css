@@ -243,3 +243,91 @@ nav a img:hover,
 }
 
 /* footer end */
+
+/* about me section 1 start */
+
+.aboutmewrapper1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    background-color: #1A0B2E;
+}
+
+.aboutmes1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.aboutmes1 h1 {
+    color: white;
+}
+
+.orkarta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #7127BA;
+    border-radius: 20px;
+    height: 190px;
+    width: 700px;
+    gap: 20px;
+}
+
+.anawili2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.orkarta img {
+    background-color: crimson;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.orkarta h2 {
+    color: white;
+}
+
+.orkarta h3 {
+    color: white;
+}
+
+.orkarta a {
+    background-color: black;
+    border-radius: 20px;
+    width: 210px;
+    padding: 10px;
+    color: pink;
+}
+
+@media (max-width: 1550px){
+    .aboutmewrapper1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px){
+    .orkarta {
+        width: 500px;
+    }
+}
+
+@media (max-width: 510px){
+    .orkarta {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+
+
+/* about me sectino 1 end */

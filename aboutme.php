@@ -16,13 +16,20 @@ include ("data.php");
     
 <header>
     <?php
-        tavis($headerinfo)
+        tavis($headerinfo);
     ?>
 </header>
 
+
+<div class="aboutmewrapper1 container">
+<?php 
+ about1($about1info);
+?>
+</div>
+
 <footer>
 <?php
-fexi($footerinfo)
+fexi($footerinfo);
 ?>
 </footer>
 
