@@ -27,6 +27,12 @@ include ("data.php");
 ?>
 </div>
 
+<div class="aboutmewrapper2 container">
+    <?php
+        about2($about2info);
+    ?>
+</div>
+
 <footer>
 <?php
 fexi($footerinfo);

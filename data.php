@@ -77,5 +77,23 @@ $about1info = [
 
 // about me container 1 end
 
+// about me container 2 start
+
+$about2info = [
+    [
+        'text1' => 'Group Project with my groupmates:',
+        'text2' => 'Worked collaboratively on PHP projects, coordinating tasks, integrating code, and optimizing functionality. Gained experience in teamwork, problem-solving, debugging, and delivering clean, efficient, and well-structured web applications.',
+        'img1' => './assets/image.svg',
+    ],
+    [
+        'text1' => 'My solo PHP project:',
+        'text2' => 'Independently developed PHP projects from start to finish, designing, coding, and debugging. Gained experience in problem-solving, optimizing functionality, and delivering clean, efficient, and well-structured web applications solo.',
+        'img1' => './assets/image2.svg',
+    ]
+];
+
+
+// about me container 2 end
+
 
 ?>
