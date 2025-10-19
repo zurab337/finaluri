@@ -95,5 +95,18 @@ $about2info = [
 
 // about me container 2 end
 
+// contact me start
+
+$contactmeinfo = [
+    [
+        'text1' => 'Name:',
+        'text2' => 'Gmail:',
+        'text3' => 'Information about your company:',
+        'text4' => 'Submit',
+    ]
+]
+
+// contact me end
+
 
 ?>
